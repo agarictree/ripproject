@@ -1,17 +1,21 @@
 .albums {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%;
+    align-content: flex-start;
 }
 .album {
-    width: auto;
-    height: auto;
+    display: block;
     cursor: pointer;
     border: 1px dotted #42002a;
-    padding: 15px;
+    padding: 10px;
+    flex: auto;
+    max-width: 30%;
+    margin: 5px;
 }
 .album img {
-    width: 300px;
-    height: auto;
+    display: block;
+    margin: auto;
+    max-width: 100%;
 }

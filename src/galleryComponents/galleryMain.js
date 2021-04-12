@@ -35,38 +35,36 @@ export default function GalleryMain() {
     })
     return (
         <section className="albums">
+            <div className="album">
             <Link to="/gallery/northstargallery">
-            <div className="album">
                 <h1>Northstar Gallery</h1>
-                    <img src={images[0]} alt="album"/>
-            </div>
+                <img src={images[0]} alt="album"/>
             </Link>
+            </div>
+            <div className="album">
             <Link to="/gallery/statues">
-            <div className="album">
                 <h1>Статуи и надгробные плиты</h1>
-                    <img src={images2[0]} alt="album"/>
-            </div>
+                <img src={images2[0]} alt="album"/>
             </Link>
+            </div>
+            <div className="album">
             <Link to="/gallery/european">
-            <div className="album">
                 <h1>Европейские кладбища</h1>
-                    <img src={images3[0]} alt="album"/>
-            </div>
+                <img src={images3[0]} alt="album"/>
             </Link>
-            <Link to="/gallery/russian">
+            </div>
             <div className="album">
+            <Link to="/gallery/russian">
                 <h1>Русские кладбища</h1>
-                    <img src={images4[0]} alt="album"/>
+                <img src={images4[0]} alt="album"/>
+            </Link>
             </div>
-            </Link>
-            
+            <div className="album">
             <Link to="/gallery/fromSubscribers">
-                <div className="album">
-                    <h1>Фото от подписчиков</h1>
-                    <img src={cross} alt="image"/>
-                </div>
+                <h1>Фото от подписчиков</h1>
+                <img src={cross} alt="image"/>
             </Link>
-
+            </div>
         </section>
         
     )
