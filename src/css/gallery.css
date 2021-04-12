@@ -1,0 +1,74 @@
+.gallery {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.gallery img {
+    margin: 7px;
+    flex: auto;
+    cursor: pointer;
+    max-width: 45%;
+}
+.european img {
+    max-width: 600px;
+    max-height: 400px;
+}
+.resizeImage {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100vw;
+    height: 100vh;
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.resizeImage img {
+    display: block;
+    margin: auto;
+}
+.closeButn {
+    color: #42002a;
+    font-weight: 900;
+    font-size: 50px;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    z-index: 1010;
+    cursor: pointer;
+}
+.gallery-component {
+    flex: auto;
+    max-width: 30%;
+    background-color: #110000;
+    margin: 5px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.gallery-component img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+.title {
+    color: #110000;
+    font-size: medium;
+    font-family: 'Lora', serif;
+    background-color: #555555;
+    padding: 5px;
+    text-align: center;
+    margin: 10px auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+.sended {
+    color:#42002a;
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-size: medium;
+}
