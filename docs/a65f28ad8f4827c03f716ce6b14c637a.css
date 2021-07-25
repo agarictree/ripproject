@@ -1,0 +1,20 @@
+aside {
+    display: flex;
+    flex-flow: column nowrap;
+    border: 2px solid #110000;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    width: 33%;
+    height: 100%;
+}
+aside a {
+    font-family: 'Cormorant SC', serif;
+    color: #555555;
+    padding: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+aside a:hover {
+    color: #5A4E8A;
+}
