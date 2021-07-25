@@ -1,0 +1,195 @@
+.articles-main {
+   display: flex;
+   flex-flow: row nowrap;
+}
+.articles-section h1 {
+    font-family: 'Cormorant SC', serif;
+    color: #42002a;
+    background-color: #555555;
+}
+h2 {
+    font-size: 2em;
+    font-family: 'Cormorant SC', serif;
+    color: #42002a;
+    text-align: center;
+    margin: 10px;
+    clear: both;
+}
+.articles-para {
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer {
+    color: #555555;
+    font-family: 'Cormorant SC', serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    margin: 15px;
+    min-width: 900px;
+    max-width: 1500px;
+}
+.articles-aside {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    border: 2px solid #110000;
+    margin: 15px;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+}
+.articles-aside a {
+    font-size: 20px;
+    padding: 30px;
+    color: #42002a;
+    font-family: 'Cormorant SC', serif;
+    text-decoration: none;
+}
+.articles-aside a:hover {
+    color: #5A4E8A;
+}
+div#locket {
+    float: left;
+    font-size: 10px;
+    border: 2px solid #110000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+.articles-section  {
+    width: 80%;
+    display: table-cell;
+    padding: 0px 15px 40px 15px;
+    margin: 15px;
+    border: 2px solid #110000;
+}
+div#vanitas {
+    float: right;
+    font-size: 10px;
+    border: 2px solid #110000;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+div#victoria {
+    float: right;
+    border: 2px solid #110000;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+div#dress {
+    float: right;
+    border: 2px solid #110000;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+div#brooch {
+    float: left;
+    border: 2px solid #110000;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+div#bonnet {
+    float: left;
+    border: 2px solid #110000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+div#bonnet p {
+    font-size: 13px;
+}
+ div#brooch p {
+    font-size: 13px;
+ } 
+ div#dress p {
+    font-size: 13px;
+ } 
+ div#victoria p {
+    font-size: 13px;
+ }
+ div#vanitas p {
+    font-size: 13px;
+ }
+ div#locket p {
+    font-size: 13px;
+}
+.list ul {
+    color: white;
+}
+q {
+    color: white;
+    font-family: 'Lora', serif;
+}
+main img {
+    cursor: pointer;
+}
+.block {
+    display: block;
+    width: 98%;
+    margin: 0;
+}
+.block img {
+    display: block;
+    max-width: 1000px;
+    margin: auto;
+}
+figure {
+    border: 2px solid #110000;
+    width: 150px;
+    padding: 7px;
+}
+figcaption {
+    color: white;
+    font-family: 'Lora', serif;
+    font-size: 13px;
+    text-align: center;
+    margin: 4px;
+    padding: 5px;
+}
+.float {
+    float: right;
+}
+.float img {
+    max-width: 150px;
+    height: auto;
+}
+.left {
+    float: left;
+}
+.originals {
+    color: white;
+    text-align: center;
+}
+.originals a {
+    color: #42002a;
+    text-decoration: none;
+    font-family: 'Cormorant SC', serif;
+}
+.originals a:hover {
+    color: #5A4E8A;
+    text-decoration: 1px solid #5A4E8A;
+}
+.articles-mainpage li {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555555;
+    list-style-image: url("../images/cross.png");
+}
+.articles-mainpage a {
+    color: #42002a;
+    text-decoration: none;
+    font-family: 'Cormorant SC', serif;
+}
+.articles-mainpage a:hover {
+    color: #5A4E8A;
+    text-decoration: 1px solid #5A4E8A;
+}

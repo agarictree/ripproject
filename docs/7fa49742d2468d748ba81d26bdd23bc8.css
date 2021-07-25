@@ -1,0 +1,69 @@
+
+    h1 {
+    width: 98%;
+    padding: 5px;
+    font-family: 'Cormorant SC', serif;
+    color: #42002a;
+    background-color: #555555;
+    text-align: center;
+    margin: 10px 20px 10px 0px;
+    font-size: 30px;
+    }
+    .para-news {
+        font-family: 'Cormorant SC', serif;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    footer {
+        color: #555555;
+        font-family: 'Cormorant SC', serif;
+        font-size: 20px;
+        text-align: center;
+        padding: 5px 10px 5px 10px;
+        margin: 15px;
+        width: 98%;
+    }
+    .table {
+        display: table;
+        margin: 15px 15px 15px 15px;
+    }
+
+    #cell {
+        display: table-cell;
+        margin: 15px;
+        padding: 15px;
+        text-align: center;
+        border: 2px solid #200016;
+    }
+    #cell1 {
+        display: table-cell;
+        margin: 15px;
+        padding: 15px;
+        text-align: center;
+        border: 2px solid #200016;
+    }
+    blockquote {
+        font-style: italic;
+        font-size: 17px;
+    }
+    .news-aside {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        border: 2px solid #110000;
+        margin: 15px;
+        width: 200px;
+        height: 100%;
+        text-align: center;
+    }
+    .news-aside a {
+        font-family: 'Cormorant SC', serif;
+        color: #555555;
+        padding: 20px;
+        text-align: center;
+        font-size: 17px;
+    }
+    .news-aside a:hover {
+        color: #5A4E8A;
+    }

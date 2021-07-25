@@ -1,0 +1,14 @@
+.gallery {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.gallery img {
+    margin: 7px;
+    flex: auto;
+}
+.european img {
+    max-width: 600px;
+    max-height: 400px;
+}
