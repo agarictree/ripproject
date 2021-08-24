@@ -1,0 +1,31 @@
+.container-home {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    @media screen and (max-width: 768px) {
+        flex-flow: column nowrap;
+    }
+    img {
+        max-width: 95%;
+        display: block;
+        margin: 0 auto;
+    }
+    .more {
+        text-decoration: 1px solid #42002a;
+        font-family: 'Cormorant SC', serif;
+        padding: 5px;
+        float: right;
+        font-size: 20px;
+        color: #42002a;
+        &:hover {
+            text-decoration: 1px solid #5A4E8A underline;
+            color: #6F2E9C;
+        }
+    }
+}
+.container {
+    max-width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+}

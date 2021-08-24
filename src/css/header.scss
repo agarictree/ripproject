@@ -1,0 +1,71 @@
+header {
+    margin: 0;
+    /* background-color: black; */
+    background-image: url("./header.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    max-width: 100%;
+    padding: 0;
+    .header-link {
+        font-family: "homemade apple", serif;
+        font-size: 80px;
+        text-align: center;
+        color: white;
+        text-shadow: 1px 1px #732372, 1px -1px #732372, -1px 1px #732372, -1px -1px #732372, 3px 3px 6px rgba(0,0,0,.5);
+        max-width: 100%;
+        cursor: pointer;
+        @media screen and (max-width: 768px) {
+            font-size: 30px;
+        }
+        @media screen and (min-width: 768px) and (max-width: 1024px) {
+           font-size: 50px;
+       }
+    }
+    nav {
+         background-color: #555555;
+         text-align: center;
+         padding: 5px;
+         max-width: 100%;
+         ul {
+             margin: 0;
+             padding: 0;
+             list-style-type: none;
+             display: flex;
+             flex-flow: row nowrap;
+             justify-content: center;
+             li {
+                 align-self: center;
+                 a {
+                     text-decoration-line: none;  
+                     font-family: 'Cormorant Infant', serif;
+                     font-weight: bold;
+                     padding: 5px 15px;
+                     color: #42002a;
+                    font-size: 2em;
+                     /* background-color: #393939; */
+                     @media screen and (max-width:540px) {
+                         font-size: 0.7em;
+                         padding: 0;
+                         margin-left: 5px;
+                     }
+                     @media screen and (min-width:540px) and (max-width: 768px) {
+                        font-size: 1em;
+                    }
+                     @media screen and (min-width: 768px) and (max-width: 1024px) {
+                        font-size: 1.5em;
+                    }
+                     &:link {
+                         color: white;
+                     }
+                     &:hover {
+                         text-decoration: 1px solid white underline;
+                         color: white;
+                         background-color: #444444;
+                     }
+                 }
+             }
+         }
+ }
+
+ }

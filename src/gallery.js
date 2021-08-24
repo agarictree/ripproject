@@ -7,7 +7,7 @@ import Aside from "./aside";
 export default function Gallery() {
     
     return (
-        <div id="all">
+        <div className="container">
             <Aside links={[
                 {link: "/gallery/northstargallery", title: "Northstar gallery"},
                 {link: "/gallery/european", title: "Европейские кладбища"},

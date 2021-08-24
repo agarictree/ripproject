@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import img011 from "./images/011.jpg";
 import openrequest from "./base.js";
 import "./css/resizImage.css";
+import "./css/galleryHome.css";
 import resizImage from "./galleryComponents/resizeImage.js";
 
 export default function GalleryComponent() {

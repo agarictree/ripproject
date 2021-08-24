@@ -5,18 +5,7 @@ import Aside from "./aside";
 
 export default function Media() {
     return (
-        <div id="all">
-                {/* <aside className="media-aside">
-                <img src={ornament}/><br/>
-                    <Link to="/media/documentary">Документальные фильмы</Link><br/>
-                    <img src={ornament}/><br/>
-                    <Link to="/media/movies">Фильмы</Link><br/>
-                    <img src={ornament}/><br/>
-                    <Link to="/media/music">Музыка</Link><br/>
-                    <img src={ornament}/><br/>
-                    <Link to="/media/archives">Архивы, частные коллекции, информация</Link><br/>
-                    <img src={ornament}/><br/>
-                </aside> */}
+        <div className="container">
                 <Aside links={[
                     {link: "/media/documentary", title: "Документальные фильмы"},
                     {link: "/media/movies", title: "Фильмы"},

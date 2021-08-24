@@ -5,5 +5,5 @@ footer {
     text-align: center;
     padding: 5px 10px 5px 10px;
     margin: 15px;
-   width: 98%;
+   max-width: 100%;
 }
