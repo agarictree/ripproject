@@ -1,0 +1,80 @@
+aside {
+  display: block;
+  border: 2px solid #110000;
+  max-width: 30%;
+  height: auto;
+  background-color: black;
+  z-index: 10000;
+}
+
+@media screen and (max-width: 768px) {
+  aside {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+aside .asideContainer {
+  padding: 15px;
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  background-color: black;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  aside .asideContainer {
+    padding: 5px;
+  }
+}
+
+aside .asideContainer a {
+  font-family: 'Cormorant SC', serif;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 768px) {
+  aside .asideContainer a {
+    padding: 5px;
+    font-size: 0.8em;
+  }
+}
+
+aside .asideContainer a:hover {
+  color: #d5cdf3;
+}
+
+aside .menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  aside .menu {
+    color: white;
+    display: block;
+    font-size: 25px;
+    z-index: 10000;
+  }
+}
+
+.animateAside {
+  animation: aside 600ms linear;
+}
+
+@keyframes aside {
+  0% {
+    left: -100%;
+  }
+  50% {
+    left: -50%;
+  }
+  100% {
+    left: 0;
+  }
+}

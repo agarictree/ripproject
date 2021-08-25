@@ -1,0 +1,24 @@
+.albums {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.albums .album {
+  display: block;
+  cursor: pointer;
+  border: 1px dotted #42002a;
+  padding: 10px;
+  flex: auto;
+  max-width: 47%;
+  max-height: auto;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.albums .album img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}

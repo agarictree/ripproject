@@ -1,0 +1,26 @@
+#backBtn img {
+    width: 50px;
+    height: auto;
+}
+#backBtn {
+    position: fixed;
+    padding: 10px;
+    top: 15%;
+    left: 5%;
+    opacity: 0.5;
+    width: 150px;
+    height: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#backBtn:hover {
+    opacity: 1;
+}
+#backBtnText {
+    color: white;
+    align-self: center;
+    text-transform: uppercase;
+}

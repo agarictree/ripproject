@@ -1,0 +1,21 @@
+.news-section {
+  display: flex;
+  flex-flow: row nowrap;
+  max-width: 100%;
+  position: relative;
+}
+
+.news-section article {
+  max-width: 100%;
+}
+
+.news-section article img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 17px;
+}
