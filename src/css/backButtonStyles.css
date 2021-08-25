@@ -5,8 +5,8 @@
 #backBtn {
     position: fixed;
     padding: 10px;
-    top: 250px;
-    left: 200px;
+    top: 15%;
+    left: 5%;
     opacity: 0.5;
     width: 150px;
     height: auto;
@@ -14,6 +14,7 @@
     flex-flow: row nowrap;
     justify-content: center;
     cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 #backBtn:hover {
     opacity: 1;

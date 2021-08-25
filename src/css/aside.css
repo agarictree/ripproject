@@ -1,13 +1,15 @@
 aside {
+  display: block;
   border: 2px solid #110000;
-  margin: 15px;
   max-width: 30%;
-  height: 100%;
+  height: auto;
   background-color: black;
+  z-index: 10000;
 }
 
 @media screen and (max-width: 768px) {
   aside {
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -31,7 +33,7 @@ aside .asideContainer {
 
 aside .asideContainer a {
   font-family: 'Cormorant SC', serif;
-  color: #555555;
+  color: white;
   padding: 20px;
   text-align: center;
   font-size: 17px;
@@ -56,6 +58,7 @@ aside .menu {
   aside .menu {
     color: white;
     display: block;
+    font-size: 25px;
     z-index: 10000;
   }
 }
@@ -66,12 +69,12 @@ aside .menu {
 
 @keyframes aside {
   0% {
-    transform: translateX(-100px);
+    left: -100%;
   }
   50% {
-    transform: translateX(-50px);
+    left: -50%;
   }
   100% {
-    transform: translateX(0);
+    left: 0;
   }
 }

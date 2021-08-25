@@ -1,7 +1,7 @@
 import React from "react";
 import Aside from "./aside";
 import "./css/style-news.css";
-import NewsMainPage from "./newsMainPage";
+import NewsRouter from "./newsRouter";
 
 export default function News() {
     return (
@@ -12,7 +12,7 @@ export default function News() {
                 {link: "/news/june19", title: "Мусульмане провели субботник на кладбище<br/>19 июня"},
                 {link: "/news/archive", title: "Архив новостей"},
             ]}/>
-            <NewsMainPage />
+            <NewsRouter />
         </section>
     )
 }

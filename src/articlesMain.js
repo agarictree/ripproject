@@ -4,7 +4,7 @@ import onclickHandler from "./dropdownlist.js";
 
 export default function ArticlesMain() {
     return (
-        <main className="articles-mainpage">
+        <main className="articles-container">
                 <h1>Статьи и информация</h1>
                 <ul className="articles-list">
                     <li onClick={onclickHandler} className="before">

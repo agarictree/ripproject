@@ -1,29 +1,20 @@
 import React from "react";
-import {Link} from "react-router-dom";
 import "./css/style-articles.css";
-import ornament from "./images/ornament.png";
 import MainArticlesPage from "./articles/mainArticlesPage";
+import Aside from "./aside";
 
 export default function Articles() {
     return (
         <main className="articles-main">
-            <aside className="articles-aside">
-            <img src={ornament}/><br/>
-                <Link to="/articles/ecofuneral">Эко-похороны</Link><br/>
-                <img src={ornament}/><br/>
-                <Link to="/articles/victorian">Викторианский культ смерти</Link><br/>
-                <img src={ornament}/><br/>
-                <Link to="/articles/egyptian">Древний Египет</Link><br/>
-                <img src={ornament}/><br/>
-                <Link to="/articles/greece">Захоронения в древней Греции</Link><br/>
-                <img src={ornament}/><br/>
-                <Link to="/articles/macabre">Пляска смерти</Link><br/>
-                <img src={ornament}/><br/>
-                <Link to="/articles/dayofthedead">Мексиканский День Мёртвых</Link><br/>
-                <img src={ornament}/><br/>
-                <Link to="/articles/pmmyth">Постомортем: мифы и заблуждения</Link><br/>
-                <img src={ornament}/><br/>
-            </aside>
+            <Aside links={[
+                                {link: "/articles/ecofuneral", title: "Эко-похороны"},
+                                {link:"/articles/victorian", title: "Викторианский культ смерти"},
+                                {link: "/articles/egyptian", title: "Древний Египет"},
+                                {link: "/articles/greece", title: "Захоронения в древней Греции"},
+                                {link: "/articles/macabre", title: "Пляска смерти"},
+                                {link: "/articles/dayofthedead", title: "Мексиканский День Мёртвых"},
+                                {link: "/articles/pmmyth", title: "Постомортем: мифы и заблуждения"}
+            ]} />
             <MainArticlesPage />
         </main>
     )

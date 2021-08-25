@@ -18,8 +18,8 @@ a {
     text-decoration-line: none;
 }
 h1 {
-    width: 100%;
-    margin: 5px;
+    max-width: 100%;
+    padding: 5px;
     font-size: 1.9em;
     font-family: 'Cormorant SC', serif;
     color: #42002a;
@@ -35,8 +35,8 @@ h2 {
     color: #42002a;
     background-color: #474747;
     font-size: 1.7em;
-    width: 100%;
-    margin: 5px;
+    max-width: 100%;
+    padding: 5px;
     clear: both;
     text-align: center;
     @media screen and (max-width: 768px) {
@@ -48,9 +48,9 @@ h3 {
     font-family: 'Cormorant SC', serif;
     color: #42002a;
     text-align: center;
-    margin: 5px;
+   padding: 5px;
     background-color: #444444;
-    width: 100%;
+    max-width: 100%;
     padding: 0;
     clear: both;
     @media screen and (max-width: 768px) {
@@ -62,8 +62,8 @@ h4 {
     color: #42002a;
     background-color: #555555;
     font-size: medium;
-    width: 100%;
-    margin: 5px;
+    max-width: 100%;
+    padding: 5px;
     clear: both;
     text-align: center;
     @media screen and (max-width: 768px) {
@@ -79,7 +79,10 @@ p {
     font-size: 1em;
     color: white;
     text-align: center;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 540px) {
+        font-size: 0.9em;
+    }
+    @media screen and (max-width: 360px) {
         font-size: 0.8em;
     }
 }
@@ -107,4 +110,9 @@ p {
 }
 .none {
     display: none;
+}
+.bold {
+    font-family: 'Lora', serif;
+    font-size: large;
+    font-weight: bold;
 }

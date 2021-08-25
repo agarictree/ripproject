@@ -28,13 +28,12 @@ function Item(header, img, addr, hours, num, link) {
         <h3>{header}</h3>
             <div className="flex-item">
                         <img src={img} alt={header} onClick={resizImage}/>
-                                <ul className="list-cemetery-item">
-                                    <li>Адрес: {addr}</li>
-                                    <li>Часы работы: {hours}</li>
-                                    <li>Телефон: {num}</li>
-                                    {link ? 
-                                    <li>Больше информации: <a href={link}>Здесь</a></li>: null}
-                                </ul>
+                        <p>
+                            <span className="bold">Адрес: </span>{addr}<br />
+                            <span className="bold">Часы работы: </span>{hours}<br />
+                            <span className="bold">Номер телефона: </span>{num}<br />
+                            {link ? <><span className="bold">Больше информации:</span><a href={link}>Здесь</a></>: null}
+                        </p>
                         </div>
         </>
     )
