@@ -1,2 +1,2 @@
 # ripproject
-Статический сайт с использованием react и react router. 
+Cайт с использованием react и react router. 
